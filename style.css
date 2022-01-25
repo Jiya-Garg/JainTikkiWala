@@ -1,0 +1,229 @@
+.topnav {
+  background-color:white;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 21px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color:white;
+  font-family:sans-serif;
+  color: black;
+}
+
+/*Coding for Header Image*/
+.image1{
+  background-size: 150px;
+  width: 1250px;
+  
+}
+
+/*Location Styling*/
+
+.location-heading{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 35px;
+}
+
+/*Contact Information Styling*/
+.contact-info-heading{
+  font-family: sans-serif;
+  position: relative;
+  right: 250px;
+}
+
+.contact-info-text{
+  font-family: sans-serif;
+  font-size: 20px;
+  position: relative;
+  right: 250px;
+}
+
+.line2{
+  position: relative;
+  top: -160px;
+  left: 600px;
+}
+
+/*Help out Styling*/
+
+.contact-info-right{
+  font-family: sans-serif;
+  position: relative;
+  right: -100px;
+  top: -150px;
+  left: 200px;
+  
+
+}
+
+.contact-info-text-right-2{
+  font-family: sans-serif;
+  position: relative;
+  top: -150px;
+  left: 200px;
+  font-size: 25px;
+}
+.body {
+  width: 100%;
+height: 100%;
+margin-right: 30px;
+margin-left: 30px;
+padding: 0;
+overflow-x:hidden;
+
+}
+/*About Header*/ 
+#about-image{
+  background-size: 150px;
+  width: 1250px;
+}
+
+#menu-image{
+  background-size: 150px;
+  width: 1250px;
+}
+
+#reviews-header{
+  background-size: 150px;
+  width: 1250px;
+}
+#myNavbar {
+  position: fixed;
+}
+#reviews_maindiv {
+  border: black;
+}
+.review_by_who {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 40px;
+}
+#review_star_rating {
+  font-size: 35px;
+}
+#review_feedback {
+  font-size: 32px;
+  color: rgb(1, 1, 26);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+/*Paratha*/
+#paratha{
+  width: 250px;
+  position: relative;
+ right: 450px;
+ top: 20px;
+
+}
+
+#text-about{
+ font-family: sans-serif;
+ position: relative;
+ top: -115px;
+ left: 118px; 
+ font-size: 22px;
+
+}
+
+/*logo*/
+
+.logo{
+  width: 200px;
+  position: relative;
+ left: 440px;
+ top: 10px;
+}
+
+.logo-text{
+  font-family: sans-serif;
+  position: relative;
+  top: -175px;
+  right: 118px;
+  font-size: 22px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #171159;
+  color: white;
+  padding: 30px;
+  font-size: 30px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block; 
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  font-size: 30px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.video4{
+  position: relative;
+
+ top: -100px;
+
+
+}
+.item_name {
+  font-size: 25px;
+  font-family:fantasy;
+  font-weight: bold;
+}
+.item_star {
+  font-size: 23px;
+}
+.item_cost {
+  font-size: 22px;
+  font-family: sans-serif;
+}
+.title {
+  font-size: 35px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
